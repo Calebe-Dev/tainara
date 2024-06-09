@@ -47,6 +47,14 @@ h1, h2 {
     align-items: center;
 }
 
+@media (max-width: 768px) { /* Define a largura mínima para voltar ao padrão */
+    .foto-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
 .foto {
     width: 300px;
     height: auto;
